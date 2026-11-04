@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Exercise 3</title>
+</head>
+<body>
+
+    <div>
+        <h1>Interactive Contact Portal</h1>
+        <span>Your gateway to effortless feedback and calculations.</span>
+    </div>
+
+    <hr>
+
+    <div>
+        
+        <form action="#" method="POST">
+            <h2>Contact Form</h2>
+            
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+            
+            <p>
+                <label for="contact-date">Preferred Contact Date:</label><br>
+                <input type="date" id="contact-date" name="contact-date">
+            </p>
+            
+            <p>
+                <label for="satisfaction">Satisfaction Level:</label><br>
+                <input type="range" id="satisfaction" name="satisfaction" min="0" max="10" value="5">
+            </p>
+            
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+
+        <hr>
+
+        <div>
+            <h2>Inline Calculator</h2>
+            <form oninput="totalSum.value = (parseInt(num1.value) || 0) + (parseInt(num2.value) || 0)">
+                <p>
+                    <label for="num1">First Number:</label><br>
+                    <input type="number" id="num1" name="num1" value="0">
+                </p>
+                
+                <p>
+                    <label for="num2">Second Number:</label><br>
+                    <input type="number" id="num2" name="num2" value="0">
+                </p>
+                
+                <p>
+                    <strong>Sum:</strong> 
+                    <output name="totalSum" for="num1 num2">0</output>
+                </p>
+            </form>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div>
+        <p>Contact Us: info@gmail.com | Phone: 019-28344450</p>
+        <p>&copy; 2026 Web Development Lab. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
