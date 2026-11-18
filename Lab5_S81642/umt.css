@@ -1,0 +1,132 @@
+/* Reset and Base Body Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f6f9;
+    color: #222222;
+    line-height: 1.7;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #4b1d70, #6a2c9c);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+
+header .subtitle {
+    font-size: 1rem;
+    color: #f3d9ff;
+    font-style: italic;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #e65100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 14px 24px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #e65100;
+}
+
+/* Main Content & Section Layout */
+main {
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+article h2,
+article h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #4b1d70;
+    margin-bottom: 16px;
+}
+
+article h3 {
+    margin-top: 30px;
+}
+
+/* Paragraph Alignment and Spacing */
+article p {
+    text-align: justify;
+    margin-bottom: 18px;
+    color: #333333;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 0.95rem;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: #4b1d70;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f6fc;
+}
+
+tbody tr:hover {
+    background-color: #efe5f8;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #e2e6ec;
+    color: #444444;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    border-top: 1px solid #cccccc;
+}
