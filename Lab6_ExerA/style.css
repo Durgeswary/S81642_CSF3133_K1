@@ -1,0 +1,159 @@
+/* General Page Styling */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 750px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header Styling */
+header {
+  background-color: #1e4e79;
+  color: #ffffff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0 0 6px 0;
+  font-size: 1.6rem;
+}
+
+header p {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* Section Spacing */
+section {
+  padding: 18px 20px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Player Input Styling */
+.player-section input {
+  padding: 8px 10px;
+  font-size: 0.95rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  margin: 0 8px;
+}
+
+#welcomeMsg {
+  font-weight: bold;
+  color: #1e4e79;
+  margin-top: 10px;
+}
+
+/* Button Styling and Hover Effect */
+button {
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 9px 16px;
+  font-size: 0.95rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 6px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Game Arena and Fixed Image Sizing */
+.arena {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.arena img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #f8fafc;
+}
+
+.vs {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #475569;
+}
+
+/* Result & Scoreboard Styling */
+#result {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  min-height: 24px;
+}
+
+.scoreboard {
+  font-weight: bold;
+  color: #334155;
+  margin: 0;
+}
+
+/* History Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #1e4e79;
+  color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+#summary {
+  font-weight: bold;
+  color: #1e293b;
+  margin-top: 12px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #f1f5f9;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+footer p {
+  margin: 4px 0;
+}
